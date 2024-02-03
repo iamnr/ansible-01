@@ -1,5 +1,6 @@
 - name: installing nginx
   hosts: ungrouped
+  become: yes
   tasks:
     - name: installign nginx
       ansible.builtin.yum:
