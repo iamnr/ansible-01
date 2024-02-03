@@ -1,0 +1,13 @@
+172.31.45.124
+[db:children]
+mongodb
+mysql
+
+[mongodb]
+roboshop-us-dev-db-mongodb-01.devopspractice.site
+roboshop-us-dev-db-mongodb-02.devopspractice.site
+
+[mysql]
+roboshop-us-dev-db-mysql-01.devopspractice.site
+roboshop-us-dev-db-mysql-02.devopspractice.site
+

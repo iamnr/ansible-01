@@ -1,0 +1,5 @@
+- name: Pinging the node
+  hosts: ungrouped
+  tasks:
+  - name: Pinging the server
+    ansible.builtin.ping:
