@@ -1,5 +1,6 @@
 - name: Variables
-  hosts: inventory
+  hosts: ungrouped
+  beocme: yes
   vars:
     COURSE: DevOps with AWS
     TRAINEE: Siva
