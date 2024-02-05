@@ -2,8 +2,8 @@
   hosts: inventory
   become: yes
   var_files:
-    variable.yaml
+  - variable.yaml
   tasks:
-   - name: Printing from var file
-     ansible.builtin.debug:
-        msg: "from file {{COURSE}}"
+  - name: Printing from var file
+    ansible.builtin.debug:
+      msg: "from file {{COURSE}}"
