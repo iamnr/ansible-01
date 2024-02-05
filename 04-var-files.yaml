@@ -5,5 +5,5 @@
     variable.yaml
   tasks:
    - name: Printing from var file
-      ansible.builtin.debug:
+     ansible.builtin.debug:
         msg: "from file {{COURSE}}"
