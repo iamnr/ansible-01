@@ -1,0 +1,9 @@
+- name: Var Files
+  hosts: inventory
+  become: yes
+  var_files:
+    variable.yaml
+  tasks:
+   -name: Printing from var file
+      ansible.builtin.debug:
+        msg: "from file {{COURSE}}"
