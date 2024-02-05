@@ -5,9 +5,9 @@
     COURSE: DevOps with AWS
     TRAINEE: Siva
   tasks:
-  - name: Print HelloWorld
-    ansible.builtin.debug:
-      msg: "Hello World"
-  - name: printing variables
-    ansible.builtin.debug:
-      msg: "Hello,{{COURSE}}"
+    - name: Print HelloWorld
+      ansible.builtin.debug:
+        msg: "Hello World"
+    - name: printing variables
+      ansible.builtin.debug:
+        msg: "Hello,{{COURSE}}"
