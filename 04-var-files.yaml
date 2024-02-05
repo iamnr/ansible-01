@@ -1,4 +1,4 @@
-- name: Var Files
+- name: Files
   hosts: inventory
   become: yes
   var_files:
