@@ -1,5 +1,5 @@
 - name: Files
-  hosts: inventory
+  hosts: ungrouped
   become: yes
   var_files:
   - variable.yaml
