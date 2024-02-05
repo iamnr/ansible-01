@@ -1,7 +1,7 @@
 - name: Files
   hosts: ungrouped
   become: yes
-  var_files:
+  vars_files:
   - variables.yaml
   tasks:
   - name: Printing from var file
