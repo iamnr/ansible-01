@@ -1,7 +1,7 @@
 - name: promt names
   hosts: localhost
   become: yes
-  vars_promt:
+  vars_prompt:
     - name: USERNAME
       promt: Please enter your name
       private: false
