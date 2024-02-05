@@ -6,8 +6,8 @@
     TRAINEE: Siva
   tasks:
   - name: Print HelloWorld
-      ansible.builtin.debug:
+    ansible.builtin.debug:
       msg: "Hello World"
   - name: printing variables
-      ansible.builtin.debug:
+    ansible.builtin.debug:
       msg: "Hello,{{COURSE}}"
