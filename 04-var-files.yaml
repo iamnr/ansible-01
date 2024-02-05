@@ -2,7 +2,7 @@
   hosts: ungrouped
   become: yes
   var_files:
-  - variable.yaml
+  - variables.yaml
   tasks:
   - name: Printing from var file
     ansible.builtin.debug:
