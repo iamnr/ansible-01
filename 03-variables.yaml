@@ -1,6 +1,6 @@
 - name: Variables
   hosts: ungrouped
-  beocme: yes
+  become: yes
   vars:
     COURSE: DevOps with AWS
     TRAINEE: Siva
