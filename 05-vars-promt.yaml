@@ -3,10 +3,10 @@
   become: yes
   vars_prompt:
     - name: USERNAME
-      promt: Please enter your name
+      prompt: Please enter your name
       private: false
     - name: PASSWORD
-      promt: Please enter your password
+      prompt: Please enter your password
       private: true
   tasks:
     - name: print variables
