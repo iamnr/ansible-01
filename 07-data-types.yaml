@@ -15,7 +15,7 @@
 
   tasks:
   - name: Printing number variable age
-    ansbible.buitlin.debug:
+    ansbible.builtin.debug:
      msg: "Age is {{AGE}}"
   - name: Printing String variable name
     ansible.builtin.debug:
