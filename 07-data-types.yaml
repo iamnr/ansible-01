@@ -1,5 +1,5 @@
 - name: Data types
-  hosts: locahost
+  hosts: localhost
   vars:
   - AGE: 30
   - NAME: Naveen
