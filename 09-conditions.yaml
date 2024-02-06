@@ -1,9 +1,9 @@
-- name: Conditions
+- name: Simple condition
   hosts: localhost
   vars:
-    NAME: DevOps
-  tasks: 
+    NAME=DevOps
+  tasks:
   - name: Condition
-    when: NAME == "DevOps"
-    ansible.builtin.debug
-      msg: "Printing name {{NAME}}"
+    when: NAME=="DevOps"
+    ansible.builtin.debug:
+      msg: "{{Printing name {{NAME}}}}"
