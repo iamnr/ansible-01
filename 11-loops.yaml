@@ -3,7 +3,7 @@
   tasks:
   - name: Softwares from the list
     ansible.builtin.yum:
-      name: {{item}}
+      name: "{{item}}
       state: installed
      
     loop:
