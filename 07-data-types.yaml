@@ -1,0 +1,29 @@
+- name: Data types
+  hosts: locahost
+  vars:
+  - AGE: 30
+  - NAME: Naveen
+  - isDevOps: true
+  - SKILLS:
+    - Devops
+    - AWS
+    - Python
+  - EXPERIENCE:
+     Devops: 7
+      AWS: 3
+      Python: 4
+
+  tasks:
+  - name: Printing number variable age
+    ansbible.buitlin.debug:
+     msg: "Age is {{AGE}}"
+  - name: Printing String variable name
+    ansible.builtin.debug:
+      msg: "Name is {{NAME}}"
+  - name: Printing list variable
+    ansible.builtin.debug:
+      msg: "{{SKILLS}}"
+  - name: Printing maps variable
+    ansible.builtin.debug:
+      msg: "{{EXPERIENCE}}"
+    
