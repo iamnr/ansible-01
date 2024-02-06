@@ -1,0 +1,11 @@
+- name: Installing softwares from the given list
+  hosts: localhost
+  tasks:
+  - name: Softwares from the list
+    ansible.builtin.yum:
+      name: {{item}}
+      state: installed
+     
+    loop:
+    - nginx
+    
