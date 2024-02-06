@@ -9,3 +9,8 @@
   - name: Printing output
     ansible.builtin.debug:
       msg: "{{out}}"
+    
+  - when: out.rc != 0
+    name: Creating Roboshop if it is not available
+    ansible.builtin.user:
+      name: roboshop
