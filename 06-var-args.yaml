@@ -1,0 +1,6 @@
+- name: Values from Command line
+  hosts: localhost
+  tasks:
+  - name: Variables from args
+    ansible.builtin.debug:
+      msg: "Usename is {{USERNAME}}"
