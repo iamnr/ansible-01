@@ -6,4 +6,4 @@
   - name: Condition
     when: NAME=="DevOps"
     ansible.builtin.debug:
-      msg: "{{Printing name {{NAME}}}}"
+      msg: "Printing name {{NAME}}"
