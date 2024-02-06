@@ -12,5 +12,6 @@
     
   - when: out.rc != 0
     name: Creating Roboshop if it is not available
+    become: yes
     ansible.builtin.user:
       name: roboshop
