@@ -1,5 +1,5 @@
 - name: Simple loop
-  hosts: locahost
+  hosts: localhost
   tasks:
   - name: Printing list of items
     ansible.builtin.debug:
