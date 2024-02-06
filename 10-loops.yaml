@@ -1,9 +1,10 @@
 - name: Simple loop
   hosts: locahost
   tasks:
-    loop:
-    - Siva
-    - Kumar
   - name: Printing list of items in loop
     ansible.builtin.debug:
       msg: "{{item}}
+
+    loop:
+    - Siva
+    - Kumar
