@@ -4,6 +4,6 @@
     NAME: DevOps
   tasks: 
   - name: Condition
-    when: NAME == DevOps
+    when: NAME == "DevOps"
     ansible.builtin.debug
       msg: "Printing name {{NAME}}"
